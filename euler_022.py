@@ -1,7 +1,7 @@
 import time
 start_time = time.time()
 
-sorted_names = sorted(open('euler_22.txt','r').read().replace('"','').split(','))
+sorted_names = sorted(open('euler_022.txt','r').read().replace('"','').split(','))
 
 total_score = 0
 for i in range(len(sorted_names)):
